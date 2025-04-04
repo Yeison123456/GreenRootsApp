@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/inicioFragment"
+    >
+
+    <fragment
+        android:id="@+id/inicioFragment"
+        android:name="com.example.greenroots.fragments.InicioFragment"
+        app:defaultNavHost="true"
+        android:label=""
+        />
+
+    <fragment
+        android:id="@+id/ProductosFragment"
+        android:name="com.example.greenroots.fragments.ProductosFragment"
+        app:defaultNavHost="true"
+        android:label=""
+
+        />
+
+    <fragment
+        android:id="@+id/PerfilFragment"
+        android:name="com.example.greenroots.fragments.PerfilFragment"
+        app:defaultNavHost="true"
+        android:label=""
+
+        />
+
+    <fragment
+        android:id="@+id/EditarPerfilFragment"
+        android:name="com.example.greenroots.fragments.EditarPerfilFragment"
+        app:defaultNavHost="true"
+        android:label=""
+
+        />
+
+    <fragment
+        android:id="@+id/CarritoFragment"
+        android:name="com.example.greenroots.fragments.CarritoFragment"
+        app:defaultNavHost="true"
+        android:label=""
+
+        />
+
+    <fragment
+        android:id="@+id/CategoriasFragment"
+        android:name="com.example.greenroots.fragments.CategoriasFragment"
+        app:defaultNavHost="true"
+        android:label=""
+
+        />
+
+    <fragment
+        android:id="@+id/CategoriaHogarFragment"
+        android:name="com.example.greenroots.fragments.CategoriaHogarFragment"
+        app:defaultNavHost="true"
+        android:label=""
+
+        />
+
+    <fragment
+        android:id="@+id/CategoriaRopaFragment"
+        android:name="com.example.greenroots.fragments.CategoriaRopaFragment"
+        app:defaultNavHost="true"
+        android:label=""
+
+        />
+
+    <fragment
+        android:id="@+id/CategoriaElectronicaFragment"
+        android:name="com.example.greenroots.fragments.CategoriaElectronicaFragment"
+        app:defaultNavHost="true"
+        android:label=""
+
+        />
+
+    <fragment
+        android:id="@+id/CategoriaDeportesFragment"
+        android:name="com.example.greenroots.fragments.CategoriaDeportesFragment"
+        app:defaultNavHost="true"
+        android:label=""
+
+        />
+
+    <fragment
+        android:id="@+id/CategoriaAccesoriosFragment"
+        android:name="com.example.greenroots.fragments.CategoriaAccesoriosFragment"
+        app:defaultNavHost="true"
+        android:label=""
+
+        />
+
+
+
+
+</navigation>

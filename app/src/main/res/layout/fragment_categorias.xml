@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="40dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/TittleFragmentCategorias"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:textColor="@color/green"
+            android:fontFamily="serif"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="20sp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/categoryElectronic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:background="@drawable/rounded_background"
+                    android:layout_margin="10dp"
+                    >
+
+
+                    <TextView
+                        android:id="@+id/nameCategoryElectronic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/nameCategory1"
+                        android:textStyle="bold"
+                        android:textSize="25sp"
+                        android:padding="10sp"
+                        android:textAlignment="center"
+                        android:fontFamily="serif"
+                        />
+
+                    <ImageView
+                        android:id="@+id/imgCategoryElectronic"
+                        android:layout_width="150sp"
+                        android:layout_height="70sp"
+                        app:srcCompat="@drawable/categoria_electronica"
+                        />
+
+                    <TextView
+                        android:id="@+id/amountProductsCategoryElectronic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/amountProductsCategory1"
+                        android:textSize="15sp"
+                        android:layout_marginTop="15dp"
+                        android:textAlignment="center"
+                        android:fontFamily="serif"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/categoryClothes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:background="@drawable/rounded_background"
+                    android:layout_margin="10dp"
+                    >
+
+
+                    <TextView
+                        android:id="@+id/nameCategoryClothes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/nameCategory2"
+                        android:textStyle="bold"
+                        android:textSize="25sp"
+                        android:padding="10sp"
+                        android:textAlignment="center"
+                        android:fontFamily="serif"
+                        />
+
+                    <ImageView
+                        android:id="@+id/imgCategoryClothes"
+                        android:layout_width="150sp"
+                        android:layout_height="70sp"
+                        app:srcCompat="@drawable/categoria_ropa"
+                        />
+
+                    <TextView
+                        android:id="@+id/amountProductsCategoryClothes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/amountProductsCategory1"
+                        android:textSize="15sp"
+                        android:layout_marginTop="15dp"
+                        android:textAlignment="center"
+                        android:fontFamily="serif"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="20sp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/categoryHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:background="@drawable/rounded_background"
+                    android:layout_margin="10dp"
+                    >
+
+
+                    <TextView
+                        android:id="@+id/nameCategoryHome"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/nameCategory3"
+                        android:textStyle="bold"
+                        android:textSize="25sp"
+                        android:padding="10sp"
+                        android:textAlignment="center"
+                        android:fontFamily="serif"
+                        />
+
+                    <ImageView
+                        android:id="@+id/imgCategoryHome"
+                        android:layout_width="150sp"
+                        android:layout_height="70sp"
+                        app:srcCompat="@drawable/categoria_hogar"
+                        />
+
+                    <TextView
+                        android:id="@+id/amountProductsCategoryHome"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/amountProductsCategory1"
+                        android:textSize="15sp"
+                        android:layout_marginTop="15dp"
+                        android:textAlignment="center"
+                        android:fontFamily="serif"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/categorySports"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:background="@drawable/rounded_background"
+                    android:layout_margin="10dp"
+                    >
+
+
+                    <TextView
+                        android:id="@+id/nameCategorySports"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/nameCategory4"
+                        android:textStyle="bold"
+                        android:textSize="25sp"
+                        android:padding="10sp"
+                        android:textAlignment="center"
+                        android:fontFamily="serif"
+                        />
+
+                    <ImageView
+                        android:id="@+id/imgCategorySports"
+                        android:layout_width="150sp"
+                        android:layout_height="70sp"
+                        app:srcCompat="@drawable/categoria_deportes"
+                        />
+
+                    <TextView
+                        android:id="@+id/amountProductsCategorySports"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/amountProductsCategory1"
+                        android:textSize="15sp"
+                        android:layout_marginTop="15dp"
+                        android:textAlignment="center"
+                        android:fontFamily="serif"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="20sp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/categoryAccesories"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:background="@drawable/rounded_background"
+                    android:layout_margin="10dp"
+                    >
+
+
+                    <TextView
+                        android:id="@+id/nameCategoryAccesories"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/nameCategory5"
+                        android:textStyle="bold"
+                        android:textSize="25sp"
+                        android:padding="10sp"
+                        android:textAlignment="center"
+                        android:fontFamily="serif"
+                        />
+
+                    <ImageView
+                        android:id="@+id/imgCategoryAccesories"
+                        android:layout_width="150sp"
+                        android:layout_height="70sp"
+                        app:srcCompat="@drawable/categoria_accesorios"
+                        />
+
+                    <TextView
+                        android:id="@+id/amountProductsCategoryAccesories"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/amountProductsCategory1"
+                        android:textSize="15sp"
+                        android:layout_marginTop="15dp"
+                        android:textAlignment="center"
+                        android:fontFamily="serif"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
