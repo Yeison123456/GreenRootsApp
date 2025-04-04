@@ -50,7 +50,7 @@ class PerfilFragment : Fragment() {
     private fun loadData(){
         tvName.setText(sharedPreferences.getString("name", ""))
         tvLastName.setText(sharedPreferences.getString("lastName", ""))
-        tvEmail.setText(sharedPreferences.getLong("phone", 0).toString())
-        tvPhone.setText(sharedPreferences.getString("email", ""))
+        tvPhone.setText(sharedPreferences.getLong("phone", 0).toString())
+        tvEmail.setText(sharedPreferences.getString("email", ""))
     }
 }

@@ -147,7 +147,7 @@ class CarritoFragment : Fragment() {
     }
 
     private fun checkout() {
-        Toast.makeText(requireContext(), "Compra realizada por un total de ${tvTotal.text}", Toast.LENGTH_LONG).show()
+        Toast.makeText(requireContext(), "Compra realizada por un ${tvTotal.text}", Toast.LENGTH_LONG).show()
         sharedPreferences.edit().remove("products").apply()
         loadCartItems()
     }
